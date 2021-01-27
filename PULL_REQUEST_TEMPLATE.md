@@ -21,4 +21,4 @@ Resolves: #GITHUB_ISSUE_ID or https://link_to_the_issue_on_discuss.
 
 ### Investigation details
 
-<!-- Please share any alternative solutions that were considered along with investigation deatils. -->
+<!-- Please share any alternative solutions that were considered along with investigation details. -->
