@@ -42,6 +42,6 @@ Our single guide currently is to apply [Effective Go](https://golang.org/doc/eff
 
 ## Reporting issues
 
-Please refer to our issue template chooser if something is not behaving as expected while using the Step. The template chooser should guide you to the appropriate forum to raise your question so we can assist you the fastest.
+Please refer to our issue template picker if something is not behaving as expected while using the Step. The template picker guides you to the appropriate forum where you can ask your question and we can quickly assist you.
 
 Please note that Github issues not comforming to the bug template will be closed and asked to be reopened.
