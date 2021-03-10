@@ -7,10 +7,10 @@ about: If something isn't working as expected
 ### Troubleshooting
 
 - [ ] I've searched [discuss.bitrise.io](https://discuss.bitrise.io/) for possible solutions.
-- Which version of the step is effected? _1.2.3_
-- Is the issue reproducible with the latest version? _YES / NO_
-- Does the issue happen sporadically, or every time? _SPORADIC / EVERY TIME_
-- Is the issue reproducible locally by following our [local debug guide](https://devcenter.bitrise.io/troubleshooting/debugging-your-build-on-your-own-machine/)? _YES / NO / NOT APPLICABLE_
+- Which version of the step is effected? 1.2.3
+- Is the issue reproducible with the latest version? YES / NO
+- Does the issue happen sporadically, or every time? SPORADIC / EVERY TIME
+- Is the issue reproducible locally by following our [local debug guide](https://devcenter.bitrise.io/troubleshooting/debugging-your-build-on-your-own-machine/)? YES / NO / NOT APPLICABLE
 
 ### Useful information
 
