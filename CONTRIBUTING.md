@@ -88,6 +88,8 @@ This section is intended to describe the coding conventions applied for the Step
 
 Our single guide currently is to apply [Effective Go](https://golang.org/doc/effective_go.html), which has a great number of tips on writing clear and idiomatic Go.
 
+We also have a [collection of Step-specific guidelines and best practices](https://github.com/bitrise-io/bitrise/blob/master/_docs/step-development-guideline.md).
+
 ## Reporting issues
 
 Please refer to our issue template picker if something is not behaving as expected while using the Step. The template picker guides you to the appropriate forum where you can ask your question and we can quickly assist you.
