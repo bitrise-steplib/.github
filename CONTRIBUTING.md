@@ -38,13 +38,13 @@ This section helps you get started making changes to an existing Bitrise Step.
 
 Each Step has its own GitHub repository that includes code and the `step.yml` file that defines the configuration of the Step.
 
-Official Bitrise steps are written in [Go](https://golang.org), a simple and efficient programming language. If you are new to the language, we recommend playing with [A Tour of Go](https://tour.golang.org/) and [Go by Example](https://gobyexample.com/).
+Most of the official Bitrise steps are written in [Go](https://golang.org), a simple and efficient programming language. If you are new to the language, we recommend playing with [A Tour of Go](https://tour.golang.org/) and [Go by Example](https://gobyexample.com/).
 
 To get started, let's set up your local environment:
 
 1. [Install Go](https://golang.org/doc/install)
 2. [Install Bitrise CLI](https://devcenter.bitrise.io/bitrise-cli/installation/) - or if it's already installed, make sure it's up to date by running `bitrise update` and `bitrise plugin update`
-3. `git clone` the step repo you want to make changes to
+3. Fork and `git clone` the step repo you want to make changes to
 
 #### Anatomy of a Step
 
@@ -69,7 +69,7 @@ Bitrise is built on Bitrise, so the Steps are tested using CI workflows defined 
 
 In the root `bitrise.yml` the `check` workflow lints your code and runs Go tests (e.g. `main_test.go`). End-to-end test workflows are defined in `e2e/bitrise.yml` and you can run a single test workflow by `bitrise run workflow_name --config e2e/bitrise.yml`. These tests run the whole step as part of a larger workflow using a sample mobile project and test the functionality end-to-end.
 
-These test workflows are run automatically on Bitrise when a new PR is opened. This Bitrise project is private at the moment, so you can't see the results if the build failed. Don't worry, once you open a PR, we'll help you fix any failing test.
+These test workflows are run automatically on Bitrise when a new PR is opened and the build is approved by the maintainers. This Bitrise project is private at the moment, so you can't see the results if the build failed. Don't worry, once you open a PR, we'll help you fix any failing test.
 
 If you want to test your modified Step in your own real project, you can change the workflow to run your forked version of the step:
 
