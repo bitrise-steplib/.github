@@ -11,7 +11,10 @@
 -->
 - [ ] I've read and followed the [Contribution Guidelines](https://github.com/bitrise-steplib/.github/blob/main/CONTRIBUTING.md)
 - [ ] `step.yml` and `README.md` is updated with the changes (if needed)
-- Requires a *MAJOR/MINOR/PATCH* [version update](https://semver.org/) <!-- Leave this untouched if you don't know, we'll help -->
+
+### Version
+<!-- Leave this untouched if you don't know, we'll help -->
+Requires a *MAJOR/MINOR/PATCH* [version update](https://semver.org/)
 
 ### Context
 
