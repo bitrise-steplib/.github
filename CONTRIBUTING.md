@@ -18,7 +18,7 @@ You can find out more on contributions on [Devcenter.](https://devcenter.bitrise
 
 Fixing a simple bug is a great way to start contributing your code to Bitrise. If you found a bug that you would like to fix, please follow this process:
 
-1. Create a Github Issue.
+1. Check if there is an existing GitHub issue about the problem, if not, create one.
 1. Read the [Coding Guideline](#coding-guideline).
 1. Open a Pull Request.
 
@@ -32,6 +32,54 @@ We have always been grateful for community contributions that enhance our Steps.
 
 In the meantime, please feel free to share your feature ideas on [Discuss](https://discuss.bitrise.io/c/feature-request).
 
+### Get started
+
+This section helps you get started making changes to an existing Bitrise Step.
+
+Each Step has its own GitHub repository that includes code and the `step.yml` file that defines the configuration of the Step.
+
+Most of the official Bitrise steps are written in [Go](https://golang.org), a simple and efficient programming language. If you are new to the language, we recommend playing with [A Tour of Go](https://tour.golang.org/) and [Go by Example](https://gobyexample.com/).
+
+To get started, let's set up your local environment:
+
+1. [Install Go](https://golang.org/doc/install)
+2. [Install Bitrise CLI](https://devcenter.bitrise.io/bitrise-cli/installation/) - or if it's already installed, make sure it's up to date by running `bitrise update` and `bitrise plugin update`
+3. Fork and `git clone` the step repo you want to make changes to
+
+#### Anatomy of a Step
+
+A typical Bitrise step folder structure looks like this:
+
+```
+├── README.md
+├── bitrise.yml       # Workflows for checking code quality and running tests
+├── e2e
+│   └── bitrise.yml   # Workflows that run end-to-end tests on the step
+├── go.mod            # Go module dependencies
+├── go.sum            # Dependency checksums
+├── main.go           # Main entry point of step, execution starts here
+├── main_test.go      # Tests
+├── step.yml          # Metadata describing the step (input, outputs, description)
+├── vendor/           # Vendored dependencies
+```
+
+#### How to test your step
+
+Bitrise is built on Bitrise, so the Steps are tested using CI workflows defined in `bitrise.yml` and `e2e/bitrise.yml`. While making changes to a step, you can run these workflows locally using the Bitrise CLI. 
+
+In the root `bitrise.yml` the `check` workflow lints your code and runs Go tests (e.g. `main_test.go`). End-to-end test workflows are defined in `e2e/bitrise.yml` and you can run a single test workflow by `bitrise run workflow_name --config e2e/bitrise.yml`. These tests run the whole step as part of a larger workflow using a sample mobile project and test the functionality end-to-end.
+
+These test workflows are run automatically on Bitrise when a new PR is opened and the build is approved by the maintainers. This Bitrise project is private at the moment, so you can't see the results if the build failed. Don't worry, once you open a PR, we'll help you fix any failing test.
+
+If you want to test your modified Step in your own real project, you can change the workflow to run your forked version of the step:
+
+```yaml
+steps:
+- git-clone@6: #replace this
+- git::https://github.com/username/steps-git-clone@branchname: # with this 
+```
+
+
 ### Coding Guideline
 
 🚧 _Currently under construction and will be updated in the future. The guide is only applicable for Go based Steps. Please follow to conventions of the existing code for Ruby and Bash based Steps._
@@ -39,6 +87,8 @@ In the meantime, please feel free to share your feature ideas on [Discuss](https
 This section is intended to describe the coding conventions applied for the Step. Please refer to it when contributing code to the repository.
 
 Our single guide currently is to apply [Effective Go](https://golang.org/doc/effective_go.html), which has a great number of tips on writing clear and idiomatic Go.
+
+We also have a [collection of Step-specific guidelines and best practices](https://github.com/bitrise-io/bitrise/blob/master/_docs/step-development-guideline.md).
 
 ## Reporting issues
 
