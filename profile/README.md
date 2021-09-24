@@ -12,6 +12,8 @@ Bitrise steps are open source and anyone can contribute to them. If you are inte
 
 ### 🆕 Hacktoberfest 2021
 
+![Hacktoberfest](https://assets-global.website-files.com/5db35de024bb983af1b4e151/614b32cef945bd44510cd3e8_815_hactoberfest%20web%20HERO-p-500.png)
+
 We are super excited that Bitrise is participating in this year's [Hacktoberfest 2021](hacktoberfest.digitalocean.com/) event. This month-long event throughout October gives you the chance to contribute to the Open Source codebase of Bitrise.
 
-Stay tuned for more details, or check out [our participating projects](https://github.com/search?q=org%3Abitrise-steplib+topic%3Ahacktoberfest) in the meantime.
+Check out [our Hacktoberfest page](https://www.bitrise.io/hacktoberfest-2021) for more details!
