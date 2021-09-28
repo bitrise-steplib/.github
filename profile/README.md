@@ -17,3 +17,11 @@ Bitrise steps are open source and anyone can contribute to them. If you are inte
 We are super excited that Bitrise is participating in this year's [Hacktoberfest 2021](hacktoberfest.digitalocean.com/) event. This month-long event throughout October gives you the chance to contribute to the Open Source codebase of Bitrise.
 
 Check out [our Hacktoberfest page](https://www.bitrise.io/hacktoberfest-2021) for more details!
+
+### Used credits during Hacktoberfest
+
+Contributors during the Hacktoberfest can ask for plus credits for their Bitrise team if they used up their credits by working on their in the bitrise-steplib Github organization contribution.
+
+#### How to ask for plus credits
+
+Open a [support ticket on bitrise](https://support.bitrise.io/hc/en-us/requests) and ask for plus credit during the Hacktoberfest. You'll need to provide your Github user, the pull request you've worked on and your bitrise team's slug.
