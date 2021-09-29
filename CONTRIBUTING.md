@@ -20,13 +20,13 @@ We are super excited that Bitrise is participating in this year's [Hacktoberfest
 
 Check out [our Hacktoberfest page](https://www.bitrise.io/hacktoberfest-2021) for more details!
 
-### Used credits during Hacktoberfest
+### Extra credits for Hacktoberfest contributors
 
-Contributors during the Hacktoberfest can ask for plus credits for their Bitrise team if they used up their credits by working on their in the bitrise-steplib Github organization contribution.
+Hacktoberfest contributors can request extra Bitrise credits for their team account to test code changes in their own projects too.
 
-### How to ask for plus credits
-
-Open a [support ticket on bitrise](https://support.bitrise.io/hc/en-us/requests) and ask for plus credit during the Hacktoberfest. You'll need to provide your Github user, the pull request you've worked on and your bitrise team's slug.
+If you need extra credits during Hacktoberfest, please open a [support ticket](https://support.bitrise.io/hc/en-us/requests) and send us:
+- the GitHub pull request URL you opened
+- the Bitrise team where you'd like to use extra credits
 
 ## Contributing Code to a Bitrise Step
 
