@@ -10,23 +10,7 @@ If you wish to contribute to Bitrise, or take part in the community discussions,
 - [Read our blog](https://blog.bitrise.io/), and [contact us](https://www.bitrise.io/contact) if you whish to write your own blog post.
 - [Request a feature, submit an issue, or just talk to other members of our community on our forums.](https://discuss.bitrise.io/)
 
-You can find out more on contributions on [Devcenter.](https://devcenter.bitrise.io/contributors/contributors-index/)
-
-## 🆕 Hacktoberfest 2021
-
-![Hacktoberfest](https://assets-global.website-files.com/5db35de024bb983af1b4e151/614b32cef945bd44510cd3e8_815_hactoberfest%20web%20HERO-p-500.png)
-
-We are super excited that Bitrise is participating in this year's [Hacktoberfest 2021](hacktoberfest.digitalocean.com/) event. This month-long event throughout October gives you the chance to contribute to the Open Source codebase of Bitrise.
-
-Check out [our Hacktoberfest page](https://www.bitrise.io/hacktoberfest-2021) for more details!
-
-### Extra credits for Hacktoberfest contributors
-
-Hacktoberfest contributors can request extra Bitrise credits for their team account to test code changes in their own projects too.
-
-If you need extra credits during Hacktoberfest, please open a [support ticket](https://support.bitrise.io/hc/en-us/requests) and send us:
-- the GitHub pull request URL you opened
-- the Bitrise team where you'd like to use extra credits
+You can find out more on contributions on [Devcenter](https://devcenter.bitrise.io/contributors/contributors-index/).
 
 ## Contributing Code to a Bitrise Step
 
