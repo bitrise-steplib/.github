@@ -1,4 +1,4 @@
-blank_issues_enabled: false
+blank_issues_enabled: true
 contact_links:
   - name: 🚀 Feature requests
     url: https://discuss.bitrise.io/c/feature-request/
